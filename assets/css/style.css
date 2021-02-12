@@ -31,6 +31,15 @@
 .ui-menu-color-contact {
     background-color: #3498db;
 }
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
 .ui-menu-color-download {
     background-color: #525252;
 }
@@ -363,6 +372,12 @@ button[type="submit"] {
     border-style: none;
 }
 
+/*----------GOOGLE MAP----------*/
+
+div#map {
+    min-height: 360px;
+}
+
 /*----------MEDIA QUERY----------*/
 
 .center-form {
@@ -371,3 +386,4 @@ button[type="submit"] {
     margin: 0 auto;
     max-width: 50%;
 }
+
